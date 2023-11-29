@@ -1,0 +1,76 @@
+.pricContainer {
+  background-color: rgb(11, 11, 30);
+  width: 250px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 24px;
+}
+.top {
+  flex: 1;
+}
+.middle {
+  flex: 4;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10px;
+  gap: 8px;
+}
+
+.bottom {
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  /* max-height: 70px; */
+}
+.cBtn {
+  padding: 12px 36px;
+  background-color: transparent;
+  border: 1px solid #f12c4a;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+.cBtn:hover {
+  background-color: #f12c4a;
+}
+
+.red-dot-list {
+  list-style: none;
+  padding: 0;
+}
+
+.red-dot-list li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.red-dot {
+  width: 6px;
+  height: 6px;
+  background-color: #f12c4a;
+  color: #f12c4a;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.tit {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.spa {
+  font-size: 18px;
+}
+
+.adaptPrice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}

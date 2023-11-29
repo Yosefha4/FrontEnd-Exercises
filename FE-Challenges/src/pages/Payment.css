@@ -1,0 +1,91 @@
+.payment {
+  background-color: transparent;
+  height: 600px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  flex: 4;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 40px;
+}
+.right {
+  flex: 5;
+  display: flex;
+  justify-content: center;
+}
+
+.smallTit {
+  font-size: 18px;
+  color: rgb(169, 167, 167);
+  font-weight: bold;
+  padding-left: 50px;
+}
+.bigTit {
+  font-size: 28px;
+  color: white;
+  font-weight: bold;
+  white-space: normal;
+}
+.dbtn {
+  margin-left: 50px;
+  padding: 8px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgb(233, 190, 255);
+  cursor: pointer;
+}
+
+.dbtn:hover {
+  background-color: white;
+  box-shadow: 3px 2px 9px 1px white;
+}
+
+.icon {
+  margin-left: 5px;
+  display: inline-block;
+  width: 15px; /* Adjust the size of the circle */
+  height: 15px; /* Adjust the size of the circle */
+  border: 2px solid black; /* Border color */
+  border-radius: 50%; /* Makes the border circular */
+  text-align: center;
+  line-height: 15px; /* Adjust the line height for centering the arrow */
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .payment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 768px;
+    margin-top: 0px;
+    height: max-content;
+    gap: 36px;
+  }
+
+  .hero-img {
+    width: 252px;
+  }
+  .left {
+    align-items: center;
+    padding-left: 0px;
+    justify-content: center;
+    margin-top: 24px;
+    flex: 1;
+  }
+  .right {
+    /* display: none; */
+  }
+  .dbtn {
+    margin-left: 0;
+  }
+  .smallTit {
+    padding-left: 0;
+  }
+}
