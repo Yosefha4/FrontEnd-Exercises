@@ -1,14 +1,16 @@
 // import BlogCard from "./components/BlogCard/BlogCard";
 import "./App.css";
 import NavBar from "./components/Navbar/NavBar";
-import Payment from "./pages/Payment";
-import Pricing from "./pages/Pricing";
+import Grades from "./pages/Grades";
+// import Payment from "./pages/Payment";
+// import Pricing from "./pages/Pricing";
 
 const App = () => {
   return (
     <div className="app">
       <NavBar/>
-      <Pricing />
+      <Grades />
+      {/* <Pricing /> */}
       {/* <Payment/> */}
       {/* <h1>Front-End Exercises</h1>
 

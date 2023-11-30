@@ -1,0 +1,72 @@
+.grades {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  /* background-color: red; */
+  gap: 25px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+button {
+  padding: 4px 24px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid whitesmoke;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 24px;
+    height: 100vh;
+  }
+  
+  .tableContainer {
+    width: 80%;
+    margin: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: rgb(39, 145, 244);
+    font-weight: bold;
+    text-transform: uppercase;
+    color:white;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+    color: black;
+  }
