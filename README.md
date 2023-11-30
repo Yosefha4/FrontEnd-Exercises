@@ -18,6 +18,11 @@
 
 
  <img src="FE-Challenges/src/assets/pricingCardsPage.png" >
+ 
+  ---
+
+
+ <img src="FE-Challenges/src/assets/tableChalleng.png" >
 </div>
 
 
